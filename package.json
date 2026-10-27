@@ -1,0 +1,40 @@
+{
+  "name": "ats-form-fill",
+  "version": "0.1.0",
+  "description": "Read, fill and read back Greenhouse, Ashby and Lever application forms from the DOM.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && node build.mjs",
+    "prepare": "npm run build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "greenhouse",
+    "ashby",
+    "lever",
+    "ats",
+    "job-application",
+    "form",
+    "autofill",
+    "dom"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "esbuild": "^0.27.7",
+    "happy-dom": "^20.14.5",
+    "typescript": "^5.6.3",
+    "vitest": "^3.2.4"
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "source": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs/8249626?questions=true",
+  "questions": [
+    {
+      "description": null,
+      "label": "First Name",
+      "required": true,
+      "fields": [
+        {
+          "name": "first_name",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Last Name",
+      "required": true,
+      "fields": [
+        {
+          "name": "last_name",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Email",
+      "required": true,
+      "fields": [
+        {
+          "name": "email",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Phone",
+      "required": true,
+      "fields": [
+        {
+          "name": "phone",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Resume/CV",
+      "required": true,
+      "fields": [
+        {
+          "name": "resume",
+          "type": "input_file",
+          "values": []
+        },
+        {
+          "name": "resume_text",
+          "type": "textarea",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Cover Letter",
+      "required": false,
+      "fields": [
+        {
+          "name": "cover_letter",
+          "type": "input_file",
+          "values": []
+        },
+        {
+          "name": "cover_letter_text",
+          "type": "textarea",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "LinkedIn Profile",
+      "required": false,
+      "fields": [
+        {
+          "name": "question_69588861",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "How did you hear about this job?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69588862",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Company Website (Airbnb Careers)",
+              "value": 754160474
+            },
+            {
+              "label": "Third-party website or search engine",
+              "value": 754160475
+            },
+            {
+              "label": "Social media (Facebook, LinkedIn, Twitter, Instagram)",
+              "value": 754160476
+            },
+            {
+              "label": "Airbnb Tech blog post",
+              "value": 754160477
+            },
+            {
+              "label": "Airbnb.io",
+              "value": 754160478
+            },
+            {
+              "label": "Airbnb Open Source",
+              "value": 754160479
+            },
+            {
+              "label": "Event (Tech Talk, Meetup, conference)",
+              "value": 754160480
+            },
+            {
+              "label": "Airbnb Employee",
+              "value": 754160481
+            },
+            {
+              "label": "Friend, family, colleague",
+              "value": 754160482
+            },
+            {
+              "label": "Other",
+              "value": 754160483
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "<p>Airbnb values diversity, inclusion &amp; belonging for all, and is proud to be an Equal Employment Opportunity employer. It's important to us that our workplace empowers people of all backgrounds, identities, and experiences to feel respected, valued and able to contribute at the highest level.<br /><br />Self-identification is an important tool that provides an avenue for candidates to share their demographic information so that Airbnb can evaluate and implement strategies to build a culture that supports our community. As part of these efforts, we invite candidates to self-identify as to the categories below. Submitting this information is entirely voluntary and any information provided will be maintained confidentially and will not be used in making hiring decisions.</p>",
+      "label": "U.S. Equal Opportunity Employment Information (Completion is voluntary)",
+      "required": false,
+      "fields": [
+        {
+          "name": "question_69588863[]",
+          "type": "multi_value_multi_select",
+          "values": [
+            {
+              "label": "I decline to answer the following questions.",
+              "value": 754160484
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "<p><span style=\"font-weight: 400;\">Please identify your gender.</span></p>",
+      "label": "Gender:",
+      "required": false,
+      "fields": [
+        {
+          "name": "question_69588864",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Male",
+              "value": 754160485
+            },
+            {
+              "label": "Female",
+              "value": 754160486
+            },
+            {
+              "label": "Other",
+              "value": 754160487
+            },
+            {
+              "label": "Decline To Self Identify",
+              "value": 754160488
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "<p><span style=\"font-weight: 400;\">Please identify your race.</span></p>\n<p><strong>Race &amp; Ethnicity Definitions:</strong></p>\n<p><strong>Hispanic or Latino:</strong><span style=\"font-weight: 400;\"> A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race.</span></p>\n<p><strong>White (Not Hispanic or Latino): </strong><span style=\"font-weight: 400;\">A person having origins in any of the original peoples of Europe, the Middle East, or North Africa.</span></p>\n<p><strong>Black or African American (Not Hispanic or Latino): </strong><span style=\"font-weight: 400;\">A person having origins in any of the black racial groups of Africa.</span><span style=\"font-weight: 400;\"><br /></span></p>\n<p><strong>Asian (Not Hispanic or Latino): </strong><span style=\"font-weight: 400;\">A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian Subcontinent including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam.</span></p>\n<p><strong>Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino): </strong><span style=\"font-weight: 400;\">A person having origins in any of the peoples of Hawaii, Guam, Samoa, or other Pacific Islands.</span></p>\n<p><strong>American Indian or Alaska Native (Not Hispanic or Latino): </strong><span style=\"font-weight: 400;\">A person having origins in any of the original peoples of North and South America (including Central America) and who maintain tribal affiliation or community attachment.</span><span style=\"font-weight: 400;\"><br /></span></p>\n<p><strong>Two or More Races (Not Hispanic or Latino): </strong><span style=\"font-weight: 400;\">Persons who identify with two or more race categories named above.</span></p>",
+      "label": "Race:",
+      "required": false,
+      "fields": [
+        {
+          "name": "question_69588865",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "American Indian or Alaskan Native",
+              "value": 754160489
+            },
+            {
+              "label": "Asian",
+              "value": 754160490
+            },
+            {
+              "label": "Black or African American",
+              "value": 754160491
+            },
+            {
+              "label": "Hispanic or Latino",
+              "value": 754160492
+            },
+            {
+              "label": "White",
+              "value": 754160493
+            },
+            {
+              "label": "Native Hawaiian or Other Pacific Islander",
+              "value": 754160494
+            },
+            {
+              "label": "Two or More Races",
+              "value": 754160495
+            },
+            {
+              "label": "Decline to Self Identify",
+              "value": 754160496
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "<p>Please identify your veteran status.</p>",
+      "label": "Veteran Status: ",
+      "required": false,
+      "fields": [
+        {
+          "name": "question_69588866",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "I am a protected veteran",
+              "value": 754160497
+            },
+            {
+              "label": "I am not a protected veteran",
+              "value": 754160498
+            },
+            {
+              "label": "Decline to Self Identify",
+              "value": 754160499
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Are you legally authorized to work in the country where the job is located?\n",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69588867",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes, I am currently legally authorized to work in the country where the job is located.",
+              "value": 754160500
+            },
+            {
+              "label": "No, I am not currently legally authorized to work in the country where the job is located.",
+              "value": 754160501
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Will you now or in the future require company sponsorship to retain or extend your work authorization in the country where the job is located?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69588868",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes, I will require immigration sponsorship now to legally work in the country where the job is located.",
+              "value": 754160502
+            },
+            {
+              "label": "Yes, I will require immigration sponsorship in the future to legally work in the country where the job is located.",
+              "value": 754160503
+            },
+            {
+              "label": "No, I do not and will not require immigration sponsorship to legally work in the country where the job is located.",
+              "value": 754160504
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "<p>I acknowledge that I have read and understood the&nbsp;<a href=\"https://careers.airbnb.com/candidate-privacy/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=https://careers.airbnb.com/candidate-privacy/&amp;source=gmail&amp;ust=1767473313071000&amp;usg=AOvVaw3kLtgOZDTgP1S-3CNbiVyi\">Airbnb Candidate Privacy Policy.</a></p>",
+      "label": "Airbnb Candidate Privacy Policy",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69588869",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "I acknowledge that I have read and understood the Airbnb Candidate Privacy Policy.",
+              "value": 754160505
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Are you currently subject to any non-compete or non-solicitation agreement that would impact your ability to work at Airbnb or prevent you from accepting a job offer from Airbnb? ",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69588870",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes",
+              "value": 1
+            },
+            {
+              "label": "No",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Are you currently or have you ever worked for Airbnb in any capacity? This could include, but is not limited to, a full-time employee, intern, apprentice, or contingent worker.",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69588871",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes",
+              "value": 1
+            },
+            {
+              "label": "No",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "<p><em>By submitting this application, I agree and understand that the use of generative artificial intelligence (&ldquo;AI&rdquo;) tools, for example, ChatGPT, Gemini, and GitHub Copilot (&ldquo;AI Tools&rdquo;) is strictly prohibited during the interview process, unless Airbnb explicitly permits their use. I further attest that all materials I submit during the interview process including, but not limited to, responses to written or verbal interview questions, written prompts, take-home assignments, and assessments, represent my own original work and were completed without the use of AI Tools, external individuals, or other unauthorized assistance, unless expressly permitted by Airbnb.&nbsp;</em></p>\n<p><em>I also understand that I am prohibited from entering into AI Tools (including transcription tools) any confidential or non-public information of Airbnb that is obtained during the interview process. I understand that failure to comply with this Candidate AI Usage Attestation may result in disqualification from the hiring process or withdrawal of an offer.</em></p>",
+      "label": "Candidate AI Usage Attestation:",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69588872",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "I agree",
+              "value": 754160506
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "location_questions": [
+    {
+      "description": null,
+      "label": "Longitude",
+      "required": true,
+      "fields": [
+        {
+          "name": "longitude",
+          "type": "input_hidden",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Latitude",
+      "required": true,
+      "fields": [
+        {
+          "name": "latitude",
+          "type": "input_hidden",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Location",
+      "required": true,
+      "fields": [
+        {
+          "name": "location",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    }
+  ],
+  "compliance": [],
+  "demographic_questions": null,
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ]
+}

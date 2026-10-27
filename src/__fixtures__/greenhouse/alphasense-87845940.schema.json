@@ -1,0 +1,505 @@
+{
+  "source": "https://boards-api.greenhouse.io/v1/boards/alphasense/jobs/8784594002?questions=true",
+  "questions": [
+    {
+      "description": null,
+      "label": "First Name",
+      "required": true,
+      "fields": [
+        {
+          "name": "first_name",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Last Name",
+      "required": true,
+      "fields": [
+        {
+          "name": "last_name",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Preferred First Name",
+      "required": true,
+      "fields": [
+        {
+          "name": "preferred_name",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Email",
+      "required": true,
+      "fields": [
+        {
+          "name": "email",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Phone",
+      "required": true,
+      "fields": [
+        {
+          "name": "phone",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Resume/CV",
+      "required": true,
+      "fields": [
+        {
+          "name": "resume",
+          "type": "input_file",
+          "values": []
+        },
+        {
+          "name": "resume_text",
+          "type": "textarea",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Cover Letter",
+      "required": false,
+      "fields": [
+        {
+          "name": "cover_letter",
+          "type": "input_file",
+          "values": []
+        },
+        {
+          "name": "cover_letter_text",
+          "type": "textarea",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "LinkedIn Profile",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_38201614002",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "What is your target compensation range?",
+      "required": false,
+      "fields": [
+        {
+          "name": "question_38201615002",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Are you currently authorized to work in Canada?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_38201616002",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes",
+              "value": 1
+            },
+            {
+              "label": "No",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Do you currently reside in one of the following provinces: British Columbia, Alberta, Manitoba, Ontario & Saskatchewan",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_38201617002",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes",
+              "value": 1
+            },
+            {
+              "label": "No",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Have you previously been employed by AlphaSense or any of its entities; or by an agency representing AlphaSense? ",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_38201618002",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes",
+              "value": 1
+            },
+            {
+              "label": "No",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "location_questions": [
+    {
+      "description": null,
+      "label": "Longitude",
+      "required": true,
+      "fields": [
+        {
+          "name": "longitude",
+          "type": "input_hidden",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Latitude",
+      "required": true,
+      "fields": [
+        {
+          "name": "latitude",
+          "type": "input_hidden",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Location",
+      "required": true,
+      "fields": [
+        {
+          "name": "location",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    }
+  ],
+  "compliance": [],
+  "demographic_questions": {
+    "header": "U.S. Standard Demographic Questions",
+    "description": "We invite applicants to share their demographic background. If you choose to complete this survey, your responses may be used to identify areas of improvement in our hiring process.",
+    "questions": [
+      {
+        "id": 4003490002,
+        "label": "How would you describe your gender identity? (mark all that apply)",
+        "required": false,
+        "type": "multi_value_multi_select",
+        "answer_options": [
+          {
+            "id": 4020713002,
+            "label": "Man",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020712002,
+            "label": "Non-binary",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020711002,
+            "label": "Woman",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020710002,
+            "label": "I prefer to self-describe",
+            "free_form": true,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020709002,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": false
+          }
+        ]
+      },
+      {
+        "id": 4003489002,
+        "label": "How would you describe your racial/ethnic background? (mark all that apply)",
+        "required": false,
+        "type": "multi_value_multi_select",
+        "answer_options": [
+          {
+            "id": 4020708002,
+            "label": "Black or of African descent",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020707002,
+            "label": "East Asian",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020706002,
+            "label": "Hispanic, Latinx or of Spanish Origin",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020705002,
+            "label": "Indigenous, American Indian or Alaska Native",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020704002,
+            "label": "Middle Eastern or North African",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020703002,
+            "label": "Native Hawaiian or Pacific Islander",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020702002,
+            "label": "South Asian",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020701002,
+            "label": "Southeast Asian",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020700002,
+            "label": "White or European",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020699002,
+            "label": "I prefer to self-describe",
+            "free_form": true,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020698002,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": false
+          }
+        ]
+      },
+      {
+        "id": 4003488002,
+        "label": "How would you describe your sexual orientation? (mark all that apply)",
+        "required": false,
+        "type": "multi_value_multi_select",
+        "answer_options": [
+          {
+            "id": 4020697002,
+            "label": "Asexual",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020696002,
+            "label": "Bisexual and/or pansexual",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020695002,
+            "label": "Gay",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020694002,
+            "label": "Heterosexual",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020693002,
+            "label": "Lesbian",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020692002,
+            "label": "Queer",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020691002,
+            "label": "I prefer to self-describe",
+            "free_form": true,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020690002,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": false
+          }
+        ]
+      },
+      {
+        "id": 4003487002,
+        "label": "Do you identify as transgender?",
+        "required": false,
+        "type": "multi_value_single_select",
+        "answer_options": [
+          {
+            "id": 4020689002,
+            "label": "Yes",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020688002,
+            "label": "No",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020687002,
+            "label": "I prefer to self-describe",
+            "free_form": true,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020686002,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": false
+          }
+        ]
+      },
+      {
+        "id": 4003486002,
+        "label": "Do you have a disability or chronic condition (physical, visual, auditory, cognitive, mental, emotional, or other) that substantially limits one or more of your major life activities, including mobility, communication (seeing, hearing, speaking), and learning?",
+        "required": false,
+        "type": "multi_value_single_select",
+        "answer_options": [
+          {
+            "id": 4020685002,
+            "label": "Yes",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020684002,
+            "label": "No",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020683002,
+            "label": "I prefer to self-describe",
+            "free_form": true,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020682002,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": false
+          }
+        ]
+      },
+      {
+        "id": 4003485002,
+        "label": "Are you a veteran or active member of the United States Armed Forces?",
+        "required": false,
+        "type": "multi_value_single_select",
+        "answer_options": [
+          {
+            "id": 4020681002,
+            "label": "Yes, I am a veteran or active member",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020680002,
+            "label": "No, I am not a veteran or active member",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020679002,
+            "label": "I prefer to self-describe",
+            "free_form": true,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4020678002,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": false
+          }
+        ]
+      }
+    ]
+  },
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ]
+}

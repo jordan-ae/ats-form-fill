@@ -1,0 +1,512 @@
+{
+  "source": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs/8250125?questions=true",
+  "questions": [
+    {
+      "description": null,
+      "label": "First Name",
+      "required": true,
+      "fields": [
+        {
+          "name": "first_name",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Last Name",
+      "required": true,
+      "fields": [
+        {
+          "name": "last_name",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Preferred First Name",
+      "required": false,
+      "fields": [
+        {
+          "name": "preferred_name",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Email",
+      "required": true,
+      "fields": [
+        {
+          "name": "email",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Phone",
+      "required": false,
+      "fields": [
+        {
+          "name": "phone",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Resume/CV",
+      "required": false,
+      "fields": [
+        {
+          "name": "resume",
+          "type": "input_file",
+          "values": []
+        },
+        {
+          "name": "resume_text",
+          "type": "textarea",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Cover Letter",
+      "required": false,
+      "fields": [
+        {
+          "name": "cover_letter",
+          "type": "input_file",
+          "values": []
+        },
+        {
+          "name": "cover_letter_text",
+          "type": "textarea",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "LinkedIn Profile",
+      "required": false,
+      "fields": [
+        {
+          "name": "question_69592859",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "How did you hear about this job?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69592860",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": "<p>Note: if you're currently employed at Reddit, please submit your application via our Internal Job Board</p>",
+      "label": "Please provide the name of your current (or most recent) company",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69592861",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Are you currently authorized to work in the U.S.?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69592862",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes",
+              "value": 1
+            },
+            {
+              "label": "No",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Do you now, or will you in the future, require immigration sponsorship to work at Reddit?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69592863",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes",
+              "value": 1
+            },
+            {
+              "label": "No",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "<p><!--StartFragment--><a href=\"https://www.redditinc.com/policies/candidate-privacy-policy\" target=\"_blank\" rel=\"noopener\">Reddit's Candidate Privacy Policy</a><!--EndFragment--></p>",
+      "label": "By selecting \"I agree,\" I understand that the information I have provided as part of this job application will be processed in accordance with Reddit's Candidate Privacy Policy. ",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69592864",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "I agree",
+              "value": 754181132
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "location_questions": [],
+  "compliance": [],
+  "demographic_questions": {
+    "header": "Reddit U.S. Equal Employment Information",
+    "description": "<p>Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. To bring community and belonging to everyone in the world, Reddit&rsquo;s employees must represent communities and redditors on our platform.</p>\n<p>Our vision at Reddit is to have a workforce representative of people with different perspectives and experiences, including but not limited to, gender, race and ethnicity, sexual orientation, age, national origin, religion, and political views.</p>\n<p>We invite you to self-identify across the identities below so we can better understand our talent pools and assess our effectiveness in attracting and recruiting people to Reddit from all backgrounds.</p>\n<p>Answering these questions will not impact your application, nor will this information be shared with anyone making a hiring decision. For more information, please refer to our statement <a href=\"https://www.redditinc.com/assets/documents/eeoc-statement.pdf\" target=\"_blank\" rel=\"noopener\">here</a>.</p>",
+    "questions": [
+      {
+        "id": 430,
+        "label": "What gender identity do you most closely identify with? ",
+        "required": true,
+        "type": "multi_value_multi_select",
+        "answer_options": [
+          {
+            "id": 2177,
+            "label": "Agender",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2178,
+            "label": "Genderfluid",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2179,
+            "label": "Gender non-conforming",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2180,
+            "label": "Genderqueer",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2183,
+            "label": "Female",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2181,
+            "label": "Male",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2182,
+            "label": "Non-binary",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2198,
+            "label": "Not listed",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 5382,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      },
+      {
+        "id": 431,
+        "label": "Are you a person of transgender experience? ",
+        "required": true,
+        "type": "multi_value_single_select",
+        "answer_options": [
+          {
+            "id": 2186,
+            "label": "Yes",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2187,
+            "label": "No",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 5383,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      },
+      {
+        "id": 432,
+        "label": "What sexual orientation do you most closely identify with? ",
+        "required": true,
+        "type": "multi_value_multi_select",
+        "answer_options": [
+          {
+            "id": 2189,
+            "label": "Asexual",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2190,
+            "label": "Bisexual",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2191,
+            "label": "Gay",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2192,
+            "label": "Heterosexual",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2193,
+            "label": "Lesbian",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2194,
+            "label": "Pansexual",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2195,
+            "label": "Queer",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2196,
+            "label": "Not listed",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 5384,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      },
+      {
+        "id": 433,
+        "label": "Do you live with a disability (as outlined by the ADA)?",
+        "required": true,
+        "type": "multi_value_single_select",
+        "answer_options": [
+          {
+            "id": 2199,
+            "label": "Yes, I have a disability, or have a history/record of having a disability",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2200,
+            "label": "No, I do not have a disability, or have a history/record of having a disability",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 5385,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      },
+      {
+        "id": 434,
+        "label": "Are you a veteran/have you served in the military? ",
+        "required": true,
+        "type": "multi_value_single_select",
+        "answer_options": [
+          {
+            "id": 2202,
+            "label": "Active Reserve",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2203,
+            "label": "Inactive Reserve",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2204,
+            "label": "Other Protected Veteran",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2205,
+            "label": "Retired",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2206,
+            "label": "Unspecified Veteran",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2207,
+            "label": "Vietnam Era Veteran",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2208,
+            "label": "Vietnam Veteran and Other Protected Veteran",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2209,
+            "label": "No military service",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 5386,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      },
+      {
+        "id": 436,
+        "label": "Please select up to 2 ethnicities that you most closely identify with.",
+        "required": true,
+        "type": "multi_value_multi_select",
+        "answer_options": [
+          {
+            "id": 2218,
+            "label": "American Indian or Alaska Native",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2220,
+            "label": "Black or African American",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 179711,
+            "label": "East Asian",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 179712,
+            "label": "South Asian",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2221,
+            "label": "Hispanic or Latinx",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 179713,
+            "label": "Middle Eastern or North African",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2222,
+            "label": "Native Hawaiian or Other Pacific Islander",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2224,
+            "label": "White",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 5388,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      }
+    ]
+  },
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": true
+    }
+  ]
+}

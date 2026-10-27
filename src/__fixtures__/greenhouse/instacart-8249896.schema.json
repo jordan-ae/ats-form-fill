@@ -1,0 +1,756 @@
+{
+  "source": "https://boards-api.greenhouse.io/v1/boards/instacart/jobs/8249896?questions=true",
+  "questions": [
+    {
+      "description": null,
+      "label": "First Name",
+      "required": true,
+      "fields": [
+        {
+          "name": "first_name",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Last Name",
+      "required": true,
+      "fields": [
+        {
+          "name": "last_name",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Email",
+      "required": true,
+      "fields": [
+        {
+          "name": "email",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Phone",
+      "required": true,
+      "fields": [
+        {
+          "name": "phone",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Resume/CV",
+      "required": false,
+      "fields": [
+        {
+          "name": "resume",
+          "type": "input_file",
+          "values": []
+        },
+        {
+          "name": "resume_text",
+          "type": "textarea",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Cover Letter",
+      "required": false,
+      "fields": [
+        {
+          "name": "cover_letter",
+          "type": "input_file",
+          "values": []
+        },
+        {
+          "name": "cover_letter_text",
+          "type": "textarea",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Are you currently, or have you previously, worked for Instacart?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591132",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes",
+              "value": 1
+            },
+            {
+              "label": "No",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "How did you hear about this job?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591133",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": "<p>Provide link to your LinkedIn Profile. If none, specify N/A.</p>",
+      "label": "LinkedIn Profile:",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591134",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Are you legally entitled to work in Canada?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591135",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes",
+              "value": 1
+            },
+            {
+              "label": "No",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Are you authorized to work in the United States?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591136",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes",
+              "value": 1
+            },
+            {
+              "label": "No",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Which state or province do you currently live in?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591137",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "(US) Alabama",
+              "value": 754176685
+            },
+            {
+              "label": "(US) Alaska",
+              "value": 754176686
+            },
+            {
+              "label": "(US) Arizona",
+              "value": 754176687
+            },
+            {
+              "label": "(US) Arkansas",
+              "value": 754176688
+            },
+            {
+              "label": "(US) California",
+              "value": 754176689
+            },
+            {
+              "label": "(US) Colorado",
+              "value": 754176690
+            },
+            {
+              "label": "(US) Connecticut",
+              "value": 754176691
+            },
+            {
+              "label": "(US) Delaware",
+              "value": 754176692
+            },
+            {
+              "label": "(US) Florida",
+              "value": 754176693
+            },
+            {
+              "label": "(US) Georgia",
+              "value": 754176694
+            },
+            {
+              "label": "(US) Hawaii",
+              "value": 754176695
+            },
+            {
+              "label": "(US) Idaho",
+              "value": 754176696
+            },
+            {
+              "label": "(US) Illinois",
+              "value": 754176697
+            },
+            {
+              "label": "(US) Indiana",
+              "value": 754176698
+            },
+            {
+              "label": "(US) Iowa",
+              "value": 754176699
+            },
+            {
+              "label": "(US) Kansas",
+              "value": 754176700
+            },
+            {
+              "label": "(US) Kentucky",
+              "value": 754176701
+            },
+            {
+              "label": "(US) Louisiana",
+              "value": 754176702
+            },
+            {
+              "label": "(US) Maine",
+              "value": 754176703
+            },
+            {
+              "label": "(US) Maryland",
+              "value": 754176704
+            },
+            {
+              "label": "(US) Massachusetts",
+              "value": 754176705
+            },
+            {
+              "label": "(US) Michigan",
+              "value": 754176706
+            },
+            {
+              "label": "(US) Minnesota",
+              "value": 754176707
+            },
+            {
+              "label": "(US) Mississippi",
+              "value": 754176708
+            },
+            {
+              "label": "(US) Missouri",
+              "value": 754176709
+            },
+            {
+              "label": "(US) Montana",
+              "value": 754176710
+            },
+            {
+              "label": "(US) Nebraska",
+              "value": 754176711
+            },
+            {
+              "label": "(US) Nevada",
+              "value": 754176712
+            },
+            {
+              "label": "(US) New Hampshire",
+              "value": 754176713
+            },
+            {
+              "label": "(US) New Jersey",
+              "value": 754176714
+            },
+            {
+              "label": "(US) New Mexico",
+              "value": 754176715
+            },
+            {
+              "label": "(US) New York",
+              "value": 754176716
+            },
+            {
+              "label": "(US) North Carolina",
+              "value": 754176717
+            },
+            {
+              "label": "(US) North Dakota",
+              "value": 754176718
+            },
+            {
+              "label": "(US) Ohio",
+              "value": 754176719
+            },
+            {
+              "label": "(US) Oklahoma",
+              "value": 754176720
+            },
+            {
+              "label": "(US) Oregon",
+              "value": 754176721
+            },
+            {
+              "label": "(US) Pennsylvania",
+              "value": 754176722
+            },
+            {
+              "label": "(US) Rhode Island",
+              "value": 754176723
+            },
+            {
+              "label": "(US) South Carolina",
+              "value": 754176724
+            },
+            {
+              "label": "(US) South Dakota",
+              "value": 754176725
+            },
+            {
+              "label": "(US) Tennessee",
+              "value": 754176726
+            },
+            {
+              "label": "(US) Texas",
+              "value": 754176727
+            },
+            {
+              "label": "(US) Utah",
+              "value": 754176728
+            },
+            {
+              "label": "(US) Vermont",
+              "value": 754176729
+            },
+            {
+              "label": "(US) Virginia",
+              "value": 754176730
+            },
+            {
+              "label": "(US) Washington",
+              "value": 754176731
+            },
+            {
+              "label": "(US) Washington, D.C.",
+              "value": 754176732
+            },
+            {
+              "label": "(US) West Virginia",
+              "value": 754176733
+            },
+            {
+              "label": "(US) Wisconsin",
+              "value": 754176734
+            },
+            {
+              "label": "(US) Wyoming",
+              "value": 754176735
+            },
+            {
+              "label": "(CAN) Alberta",
+              "value": 754176736
+            },
+            {
+              "label": "(CAN) British Columbia",
+              "value": 754176737
+            },
+            {
+              "label": "(CAN) Manitoba",
+              "value": 754176738
+            },
+            {
+              "label": "(CAN) New Brunswick",
+              "value": 754176739
+            },
+            {
+              "label": "(CAN) Newfoundland and Labrador",
+              "value": 754176740
+            },
+            {
+              "label": "(CAN) Nova Scotia",
+              "value": 754176741
+            },
+            {
+              "label": "(CAN) Ontario",
+              "value": 754176742
+            },
+            {
+              "label": "(CAN) Prince Edward Island",
+              "value": 754176743
+            },
+            {
+              "label": "(CAN) Quebec",
+              "value": 754176744
+            },
+            {
+              "label": "(CAN) Saskatchewan",
+              "value": 754176745
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Will you now or in the future require immigration sponsorship to work for Instacart?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591138",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes",
+              "value": 1
+            },
+            {
+              "label": "No",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Do you have advanced proficiency in SQL?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591506",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes",
+              "value": 1
+            },
+            {
+              "label": "No",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "location_questions": [
+    {
+      "description": null,
+      "label": "Longitude",
+      "required": true,
+      "fields": [
+        {
+          "name": "longitude",
+          "type": "input_hidden",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Latitude",
+      "required": true,
+      "fields": [
+        {
+          "name": "latitude",
+          "type": "input_hidden",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Location",
+      "required": true,
+      "fields": [
+        {
+          "name": "location",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    }
+  ],
+  "compliance": [],
+  "demographic_questions": {
+    "header": "Voluntary Self ID Questionnaire (Canada)",
+    "description": "<p>At Instacart, we like to think of ourselves as a potluck&mdash;where everyone brings something new, different, and flavorful to the table. We believe our team&rsquo;s wide range of perspectives, experiences and backgrounds enable us to build a better product for our customers. Instacart is for everyone, and we&rsquo;re committed to fostering diverse and inclusive teams that reflect the communities we serve.</p>\n<p>Individuals seeking employment at Instacart are considered without regards to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, sexual orientation, or any other protected characteristic.&nbsp;</p>\n<p><span style=\"text-decoration: underline;\">Please note:</span> If you apply for more than one job, you will be asked to fill out the questionnaire for each application.&nbsp;&nbsp;</p>\n<p><strong>How is this information used?</strong></p>\n<p><span style=\"font-weight: 400;\">In order to track our effectiveness in recruiting a wide range of talent and to ensure that we comply with reporting requirements, we invite all applicants to voluntarily provide demographic information in a confidential survey. Providing this information is entirely optional. It is only used to ensure our hiring efforts remain free of bias and for diversity monitoring purposes. Data collected is not factored into the hiring decision or thereafter and will not affect your opportunity for employment at Instacart.</span></p>\n<p><strong>Who has access to this data?</strong></p>\n<p><span style=\"font-weight: 400;\">To ensure our hiring efforts are equitable, data is stored confidentially in our ATS (Applicant Tracking System) where only an Administrator can view demographic reporting. It is not accessible to hiring teams. Data is stored securely in a cloud-based data-warehouse to create anonymized dashboards that select HR leaders can reference.</span></p>\n<p><strong>Self-identification categories&nbsp;</strong></p>\n<ul>\n<li><strong>Gender Identity:</strong><span style=\"font-weight: 400;\"> How a person identifies their gender, regardless of their gender assigned at birth.&nbsp;</span></li>\n<li><strong>2SLGBTQIA+</strong>: An umbrella term for a range of sexual orientations and gender identities/expressions. Stands for \"Two-Spirit, Lesbian, Gay, Bisexual, Transgender, Queer, Intersex, and Asexual. The plus sign is meant to encompass all other identities that belong to this community.\"</li>\n<li><strong>Race/Ethnicity:</strong><span style=\"font-weight: 400;\"> A person&rsquo;s racial, ethnic or origin identity.&nbsp;</span></li>\n<li><strong>Disability Status:</strong><span style=\"font-weight: 400;\"> A person&rsquo;s physical or mental impairment which may limit one or more of their major life activities. </span><a href=\"https://www.canada.ca/en/government/publicservice/wellness-inclusion-diversity-public-service/diversity-inclusion-public-service/self-identification/employee-self-identification-form.html\"><span style=\"font-weight: 400;\">Learn more here.&nbsp;</span></a></li>\n<li><strong>Veteran Status:</strong><span style=\"font-weight: 400;\"> A person who has spent time serving in any branch of the military (retired or active).</span></li>\n</ul>",
+    "questions": [
+      {
+        "id": 1214,
+        "label": "What is your gender or gender identity?",
+        "required": true,
+        "type": "multi_value_single_select",
+        "answer_options": [
+          {
+            "id": 6764,
+            "label": "Woman",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6765,
+            "label": "Man",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6767,
+            "label": "Non-Conforming/Non-Binary/Third Gender",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6769,
+            "label": "Not Listed",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 11798,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      },
+      {
+        "id": 1215,
+        "label": "Do you identify as a member of the 2SLGBTQIA+ community?",
+        "required": true,
+        "type": "multi_value_single_select",
+        "answer_options": [
+          {
+            "id": 6771,
+            "label": "Yes",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6772,
+            "label": "No",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 11799,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      },
+      {
+        "id": 1216,
+        "label": "Please indicate which best describes your race/ethnicity/national heritage and/or cultural background. Check all that apply. ",
+        "required": true,
+        "type": "multi_value_multi_select",
+        "answer_options": [
+          {
+            "id": 6774,
+            "label": "White / Caucasian (A person having origins in any of the original peoples of Europe, the Middle East, or North Africa)",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6775,
+            "label": "Hispanic or Latinx (A person of Cuban, Mexican, Puerto Rican, South or Central American or other Spanish culture or origin regardless of race)",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6776,
+            "label": "Black or African Heritage (A person of African, Caribbean, West Indian descent)",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6777,
+            "label": "Asian or Asian-American (A person having origins in any of the original peoples of Asia and the Indian subcontinent including all 48 Asian countries - ie. Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, Vietnam)",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6778,
+            "label": "Native Hawaiian or other Pacific Islander (A person having origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands)",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6779,
+            "label": "Indigenous Peoples (A person having origins in any of the original peoples origin including First Nations, Inuit, Métis)",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6780,
+            "label": "Non-Canadian Indigenous Peoples (A person from United States, Australia, Central/South America)",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6781,
+            "label": "A race, ethnicity, or origin not shown",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 11800,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      },
+      {
+        "id": 1217,
+        "label": "Do you identify as a Person of Colour?",
+        "required": true,
+        "type": "multi_value_single_select",
+        "answer_options": [
+          {
+            "id": 6783,
+            "label": "Yes",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6784,
+            "label": "No",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 11801,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      },
+      {
+        "id": 1218,
+        "label": "Disability Status",
+        "required": true,
+        "type": "multi_value_single_select",
+        "answer_options": [
+          {
+            "id": 6786,
+            "label": "Yes, I have a disability, or have a history/record of having a disability",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6787,
+            "label": "No, I don't have a disability, or a history/record of having a disability",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6788,
+            "label": "I am unsure of my disability status",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 11802,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      },
+      {
+        "id": 1219,
+        "label": "Are you a Canadian Armed Forces Veteran/Reservist or the spouse of a Canadian Armed Forces Veteran/Reservist?",
+        "required": true,
+        "type": "multi_value_single_select",
+        "answer_options": [
+          {
+            "id": 6790,
+            "label": "Yes - I am a Canadian Armed Forces Veteran/Reservist",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6791,
+            "label": "Yes - I am the spouse of a Canadian Armed Forces Veteran/Reservist",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6792,
+            "label": "Yes - I am both the spouse and a Canada Armed Forces Veteran/Reservist",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6793,
+            "label": "Yes - I am veteran or spouse of a veteran (non-Canadian Armed Services)",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 6794,
+            "label": "No",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 11803,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      }
+    ]
+  },
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ]
+}

@@ -1,0 +1,742 @@
+{
+  "source": "https://boards-api.greenhouse.io/v1/boards/samsara/jobs/8250008?questions=true",
+  "questions": [
+    {
+      "description": null,
+      "label": "First Name",
+      "required": true,
+      "fields": [
+        {
+          "name": "first_name",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Last Name",
+      "required": true,
+      "fields": [
+        {
+          "name": "last_name",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Email",
+      "required": true,
+      "fields": [
+        {
+          "name": "email",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Phone",
+      "required": false,
+      "fields": [
+        {
+          "name": "phone",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Resume/CV",
+      "required": false,
+      "fields": [
+        {
+          "name": "resume",
+          "type": "input_file",
+          "values": []
+        },
+        {
+          "name": "resume_text",
+          "type": "textarea",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Cover Letter",
+      "required": false,
+      "fields": [
+        {
+          "name": "cover_letter",
+          "type": "input_file",
+          "values": []
+        },
+        {
+          "name": "cover_letter_text",
+          "type": "textarea",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": "<p>If you do not have a preferred name, please enter your legal name.</p>",
+      "label": "Preferred First Name",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591967",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": "<p>If you do not have a preferred name, please enter your legal name.</p>",
+      "label": "Preferred Last Name",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591968",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "LinkedIn Profile",
+      "required": false,
+      "fields": [
+        {
+          "name": "question_69591969",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Will you now or in the future require Samsara to commence (“sponsor”) an immigration case in order to employ you? ",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591970",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes",
+              "value": 1
+            },
+            {
+              "label": "No",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Are you currently legally authorized to work in the country in which this job is based (e.g. you are a citizen, you have a visa, etc.)?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591971",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes",
+              "value": 1
+            },
+            {
+              "label": "No",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "At Samsara, we encourage employees to bring their whole selves to work (this includes applicants too!) Feel free to share your preferred name and pronouns (she/her, they/them, he/him, ze/zir etc.).",
+      "required": false,
+      "fields": [
+        {
+          "name": "question_69591972",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": "<p dir=\"ltr\">When you apply to a job on this site, the personal data contained in your application will be collected by Samsara Inc. and/or one of its subsidiaries (&ldquo;Samsara&rdquo;) using Greenhouse Software, Inc., a cloud services provider located in the United States of America (\"Greenhouse\"). Greenhouse is engaged by Samsara to help manage its recruitment and hiring processes. For more information about how your personal data will be processed by Samsara and any rights you may have, please review Samsara&rsquo;s Candidate Privacy Notice at <a href=\"https://www.samsara.com/support/candidate-privacy-notice\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=https://www.samsara.com/support/candidate-privacy-notice&amp;source=gmail&amp;ust=1600525410443000&amp;usg=AFQjCNHXG51OitrMs1NS78CLO6CCDArHqQ\">https://www.samsara.com/<wbr />support/candidate-privacy-<wbr />notice</a>. If you have any questions about our privacy practices, please contact&nbsp;<a href=\"mailto:privacy@samsara.com\" target=\"_blank\" rel=\"noopener\">privacy@samsara.com</a>.&nbsp;</p>",
+      "label": "Processing of Personal Data",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591973",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Acknowledge/Confirm",
+              "value": 754179541
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "What is the zip code of your primary residence?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591974",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Most Recent Employer",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591975",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Have you previously worked at Samsara?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591976",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes, as a full-time employee",
+              "value": 754179542
+            },
+            {
+              "label": "Yes, as a contractor",
+              "value": 754179543
+            },
+            {
+              "label": "No",
+              "value": 754179544
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "How did you hear about this opportunity?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591977",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Samsara Careers Site",
+              "value": 754179545
+            },
+            {
+              "label": "LinkedIn Jobs",
+              "value": 754179546
+            },
+            {
+              "label": "LinkedIn Post",
+              "value": 754179547
+            },
+            {
+              "label": "LinkedIn InMail / Message from a Recruiter or Hiring Manager",
+              "value": 754179548
+            },
+            {
+              "label": "Direct Email / Call/ Text from a Recruiter or Hiring Manager",
+              "value": 754179549
+            },
+            {
+              "label": "Indeed / Glassdoor",
+              "value": 754179550
+            },
+            {
+              "label": "Reddit Ad",
+              "value": 754179551
+            },
+            {
+              "label": "BuiltIn",
+              "value": 754179552
+            },
+            {
+              "label": "RepVue",
+              "value": 754179553
+            },
+            {
+              "label": "Women in Sales Club",
+              "value": 754179554
+            },
+            {
+              "label": "Wellfound",
+              "value": 754179555
+            },
+            {
+              "label": "Just Join IT",
+              "value": 754179556
+            },
+            {
+              "label": "Industry Conference or Event",
+              "value": 754179557
+            },
+            {
+              "label": "Samsara Hosted Event",
+              "value": 754179558
+            },
+            {
+              "label": "Instahyre",
+              "value": 754179559
+            },
+            {
+              "label": "Naukri",
+              "value": 754179560
+            },
+            {
+              "label": "University / Campus Recruiting",
+              "value": 754179561
+            },
+            {
+              "label": "School Alumni Job Board or LinkedIn Group",
+              "value": 754179562
+            },
+            {
+              "label": "Company Alumni Job Board or LinkedIn Group",
+              "value": 754179563
+            },
+            {
+              "label": "Hardware FYI",
+              "value": 754179564
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Where have you learned about Samsara? Select all that apply.",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591978[]",
+          "type": "multi_value_multi_select",
+          "values": [
+            {
+              "label": "LinkedIn",
+              "value": 754179565
+            },
+            {
+              "label": "Samsara blog or website",
+              "value": 754179566
+            },
+            {
+              "label": "News or press coverage",
+              "value": 754179567
+            },
+            {
+              "label": "Podcast",
+              "value": 754179568
+            },
+            {
+              "label": "Industry event or conference",
+              "value": 754179569
+            },
+            {
+              "label": "Word of mouth (friend, family, or colleague)",
+              "value": 754179570
+            },
+            {
+              "label": "A current Samsara employee",
+              "value": 754179571
+            },
+            {
+              "label": "Glassdoor or Blind",
+              "value": 754179572
+            },
+            {
+              "label": "X / Twitter",
+              "value": 754179573
+            },
+            {
+              "label": "Instagram",
+              "value": 754179574
+            },
+            {
+              "label": "Facebook",
+              "value": 754179575
+            },
+            {
+              "label": "YouTube",
+              "value": 754179576
+            },
+            {
+              "label": "Tiktok",
+              "value": 754179577
+            },
+            {
+              "label": "Other",
+              "value": 754179578
+            },
+            {
+              "label": "I wasn't familiar with Samsara before applying",
+              "value": 754179579
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "If you selected 'Other' for where you learned about Samsara, please share additional details.",
+      "required": false,
+      "fields": [
+        {
+          "name": "question_69591979",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": "<p>Our interview process is designed to assess a candidate&rsquo;s fundamental, non-AI-assisted skills.&nbsp;Please do not use any AI tools during any part of the interview process. Please indicate &ldquo;Yes&rdquo; if you have read and agree. Candidates found to be in violation of this policy may be immediately disqualified.</p>",
+      "label": "AI Policy for Interviewers",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591980",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes",
+              "value": 1
+            },
+            {
+              "label": "No",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Have you directly managed a team before? ",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_69591981",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes",
+              "value": 1
+            },
+            {
+              "label": "No",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "location_questions": [
+    {
+      "description": null,
+      "label": "Longitude",
+      "required": true,
+      "fields": [
+        {
+          "name": "longitude",
+          "type": "input_hidden",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Latitude",
+      "required": true,
+      "fields": [
+        {
+          "name": "latitude",
+          "type": "input_hidden",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Location",
+      "required": true,
+      "fields": [
+        {
+          "name": "location",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    }
+  ],
+  "compliance": [],
+  "demographic_questions": {
+    "header": "[Optional] Demographic Questions (US, EMEA, Mexico, Canada, India)",
+    "description": "<p><span style=\"font-weight: 400;\">Samsara is an equal opportunity employer. Below is a set of optional demographic questions. Responses are confidential, will not be associated with your specific application, and will not be used in your hiring process in any way.</span></p>",
+    "questions": [
+      {
+        "id": 498,
+        "label": "How do you identify? (gender identity)",
+        "required": true,
+        "type": "multi_value_single_select",
+        "answer_options": [
+          {
+            "id": 2532,
+            "label": "Agender",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2533,
+            "label": "Cis-man",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2534,
+            "label": "Cis-woman",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2535,
+            "label": "Gender Fluid",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2536,
+            "label": "Genderqueer",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2537,
+            "label": "Man",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2538,
+            "label": "Non-Binary",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2539,
+            "label": "Transgender",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2541,
+            "label": "Trans non-binary",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2543,
+            "label": "Woman",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2544,
+            "label": "I prefer to self describe",
+            "free_form": true,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4228,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      },
+      {
+        "id": 500,
+        "label": "How do you identify? (race/ethnicity)",
+        "required": true,
+        "type": "multi_value_single_select",
+        "answer_options": [
+          {
+            "id": 2557,
+            "label": "Black / of African descent ",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2558,
+            "label": "East Asian (inclusive of Chinese, Japanese, Korean, Mongolian, Tibetan, and Taiwanese)",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2559,
+            "label": "Latinx / Hispanic",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2560,
+            "label": "Middle Eastern",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2561,
+            "label": "Native American or Alaska Native",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2562,
+            "label": "Pacific Islander or Native Hawaiian",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2563,
+            "label": "South Asian (inclusive of Bangladeshi, Bhutanese, Indian, Nepali, Pakistani, and Sri Lankan)",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2564,
+            "label": "Southeast Asian  (inclusive of Burmese, Cambodian, Filipino, Hmong, Indonesian, Laotian, Malaysian, Mien, Singaporean, Thai, and Vietnamese)",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2565,
+            "label": "Two or more races",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2566,
+            "label": "White ",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2567,
+            "label": "I prefer to self describe",
+            "free_form": true,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4230,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      },
+      {
+        "id": 501,
+        "label": "If you are based in the US, what is your veteran status? ",
+        "required": true,
+        "type": "multi_value_single_select",
+        "answer_options": [
+          {
+            "id": 2569,
+            "label": "I am a protected veteran",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2570,
+            "label": "I am not a protected veteran ",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2571,
+            "label": "I prefer to self describe",
+            "free_form": true,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4231,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      },
+      {
+        "id": 502,
+        "label": "Do you have a physical or mental disability, impairment, or condition that substantially limits major life activity? ",
+        "required": true,
+        "type": "multi_value_single_select",
+        "answer_options": [
+          {
+            "id": 2573,
+            "label": "Yes, I have a disability (or previously had a disability) ",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2574,
+            "label": "No, I don’t have a disability",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 2575,
+            "label": "I prefer to self describe",
+            "free_form": true,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4232,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      }
+    ]
+  },
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": true
+    }
+  ]
+}

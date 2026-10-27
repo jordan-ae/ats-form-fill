@@ -1,0 +1,301 @@
+{
+  "source": "ApiJobPosting response observed in-page",
+  "applicationForm": {
+    "__typename": "FormRender",
+    "id": "bd9111e8-4d89-4d92-8a2e-6fe6023c0a83",
+    "errorMessages": [],
+    "formErrors": [],
+    "sourceFormDefinitionId": "07b4334c-1a75-4b03-87c9-20107de00263",
+    "formControls": [
+      {
+        "__typename": "FormControl",
+        "identifier": "c5a44081-aecb-4525-b0c4-9b8c2a5ade57",
+        "title": "Submit"
+      }
+    ],
+    "sections": [
+      {
+        "__typename": "FormSectionRender",
+        "title": "Application Questions",
+        "descriptionHtml": "<p></p>",
+        "isHidden": null,
+        "fieldEntries": [
+          {
+            "__typename": "FormFieldEntry",
+            "id": "bd9111e8-4d89-4d92-8a2e-6fe6023c0a83__systemfield_name",
+            "field": {
+              "id": "8b83d28a-010e-4911-821c-9d76f0339291",
+              "path": "_systemfield_name",
+              "humanReadablePath": "Name",
+              "title": "Name",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "String",
+              "__autoSerializationID": "StringField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "bd9111e8-4d89-4d92-8a2e-6fe6023c0a83__systemfield_email",
+            "field": {
+              "id": "5074b89b-e2f3-4f75-a60b-322c70f4e088",
+              "path": "_systemfield_email",
+              "humanReadablePath": "Email",
+              "title": "Email",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "Email",
+              "__autoSerializationID": "EmailField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "bd9111e8-4d89-4d92-8a2e-6fe6023c0a83_465da172-1f41-45b8-95d9-215694bf2368",
+            "field": {
+              "id": "465da172-1f41-45b8-95d9-215694bf2368",
+              "path": "465da172-1f41-45b8-95d9-215694bf2368",
+              "humanReadablePath": "",
+              "title": "Phone Number",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "Phone",
+              "__autoSerializationID": "PhoneField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "bd9111e8-4d89-4d92-8a2e-6fe6023c0a83_a36fb3fa-d226-4402-a0f7-8134defd2edf",
+            "field": {
+              "id": "5344ac36-bdc3-4def-9e76-d4a6b1792229",
+              "path": "a36fb3fa-d226-4402-a0f7-8134defd2edf",
+              "humanReadablePath": "",
+              "title": "LinkedIn Profile URL",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "Url",
+              "__autoSerializationID": "UrlField"
+            },
+            "fieldValue": null,
+            "isRequired": false,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "bd9111e8-4d89-4d92-8a2e-6fe6023c0a83__systemfield_resume",
+            "field": {
+              "id": "43a57afe-f3f1-4e00-ba9e-0abf041c0b55",
+              "path": "_systemfield_resume",
+              "humanReadablePath": "Resume",
+              "title": "Resume",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "File",
+              "__autoSerializationID": "FileField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "bd9111e8-4d89-4d92-8a2e-6fe6023c0a83_c81e988f-ecae-4ae5-b397-a643e3926773",
+            "field": {
+              "id": "c81e988f-ecae-4ae5-b397-a643e3926773",
+              "path": "c81e988f-ecae-4ae5-b397-a643e3926773",
+              "humanReadablePath": "",
+              "title": "Do you now, or will you in the future, require visa sponsorship to work in the USA?",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "Boolean",
+              "__autoSerializationID": "BooleanField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "bd9111e8-4d89-4d92-8a2e-6fe6023c0a83_2df09b8e-a798-4ed2-86d5-79dbab4f6161",
+            "field": {
+              "id": "2df09b8e-a798-4ed2-86d5-79dbab4f6161",
+              "path": "2df09b8e-a798-4ed2-86d5-79dbab4f6161",
+              "humanReadablePath": "",
+              "title": "If you do need work sponsorship, please share the details",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "LongText",
+              "__autoSerializationID": "LongTextField"
+            },
+            "fieldValue": null,
+            "isRequired": false,
+            "descriptionHtml": "<p>Blissway is an equal opportunity employer and I encourage you to share more regarding your situation. </p>",
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "bd9111e8-4d89-4d92-8a2e-6fe6023c0a83__systemfield_location",
+            "field": {
+              "id": "53940ef2-51b2-4fa2-af1a-6ed196e2f84c",
+              "path": "_systemfield_location",
+              "humanReadablePath": "Location",
+              "title": "Location",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "Location",
+              "locationTypes": [
+                "Country",
+                "Region",
+                "City"
+              ],
+              "__autoSerializationID": "LocationField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "bd9111e8-4d89-4d92-8a2e-6fe6023c0a83_388937ae-fb00-4112-8ea1-7dca78ad804b",
+            "field": {
+              "id": "388937ae-fb00-4112-8ea1-7dca78ad804b",
+              "path": "388937ae-fb00-4112-8ea1-7dca78ad804b",
+              "humanReadablePath": "",
+              "title": "I confirm that I have reviewed the Job Description",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "MultiValueSelect",
+              "selectableValues": [
+                {
+                  "label": "Yes",
+                  "value": "Yes"
+                },
+                {
+                  "label": "No",
+                  "value": "No",
+                  "isArchived": false
+                }
+              ],
+              "__autoSerializationID": "MultiValueSelectField"
+            },
+            "fieldValue": null,
+            "isRequired": false,
+            "descriptionHtml": "<p><strong>Warning for Humans:</strong> Do NOT check this box. It is a bot-trap. Checking this box will result in automatic rejection.</p>",
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "bd9111e8-4d89-4d92-8a2e-6fe6023c0a83_76e7e7b4-5cfa-463b-b5d2-c9475928f4f6",
+            "field": {
+              "id": "76e7e7b4-5cfa-463b-b5d2-c9475928f4f6",
+              "path": "76e7e7b4-5cfa-463b-b5d2-c9475928f4f6",
+              "humanReadablePath": "",
+              "title": "Are you aware that this role requires relocation to Denver, and is that something you would truly consider?",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "Boolean",
+              "__autoSerializationID": "BooleanField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": "<p>Blissway offers relocation support </p>",
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "bd9111e8-4d89-4d92-8a2e-6fe6023c0a83_dd05612a-5ba5-4fe9-9e86-ec2fc72a45e6",
+            "field": {
+              "id": "dd05612a-5ba5-4fe9-9e86-ec2fc72a45e6",
+              "path": "dd05612a-5ba5-4fe9-9e86-ec2fc72a45e6",
+              "humanReadablePath": "",
+              "title": "What's one thing in this job description that stood out to you, and why?",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "LongText",
+              "__autoSerializationID": "LongTextField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "bd9111e8-4d89-4d92-8a2e-6fe6023c0a83_249e5970-72d7-4022-9cfd-4d1d6504da79",
+            "field": {
+              "id": "249e5970-72d7-4022-9cfd-4d1d6504da79",
+              "path": "249e5970-72d7-4022-9cfd-4d1d6504da79",
+              "humanReadablePath": "",
+              "title": "In fewer than 100 words, what is the hardest thing you have built or achieved? What made you keep going when it got difficult?",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "LongText",
+              "__autoSerializationID": "LongTextField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          }
+        ]
+      }
+    ]
+  },
+  "surveyForms": [],
+  "recaptchaAction": "job_apply",
+  "workplaceType": "Hybrid",
+  "locationName": "Denver, Colorado",
+  "secondaryLocationNames": [],
+  "shouldAskForTextingConsent": false
+}

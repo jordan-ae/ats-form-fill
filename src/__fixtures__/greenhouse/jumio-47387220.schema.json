@@ -1,0 +1,463 @@
+{
+  "source": "https://boards-api.greenhouse.io/v1/boards/jumio/jobs/4738722005?questions=true",
+  "questions": [
+    {
+      "description": null,
+      "label": "First Name",
+      "required": true,
+      "fields": [
+        {
+          "name": "first_name",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Last Name",
+      "required": true,
+      "fields": [
+        {
+          "name": "last_name",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Email",
+      "required": true,
+      "fields": [
+        {
+          "name": "email",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Phone",
+      "required": false,
+      "fields": [
+        {
+          "name": "phone",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Resume/CV",
+      "required": true,
+      "fields": [
+        {
+          "name": "resume",
+          "type": "input_file",
+          "values": []
+        },
+        {
+          "name": "resume_text",
+          "type": "textarea",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Cover Letter",
+      "required": false,
+      "fields": [
+        {
+          "name": "cover_letter",
+          "type": "input_file",
+          "values": []
+        },
+        {
+          "name": "cover_letter_text",
+          "type": "textarea",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "LinkedIn Profile",
+      "required": false,
+      "fields": [
+        {
+          "name": "question_9119084005",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Website",
+      "required": false,
+      "fields": [
+        {
+          "name": "question_9119085005",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "Are you eligible to work in this location (without sponsorship)?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_9119086005",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Yes",
+              "value": 1
+            },
+            {
+              "label": "No",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "What are your preferred personal pronouns?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_9119087005",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "she/her/hers",
+              "value": 24472318005
+            },
+            {
+              "label": "he/him/his",
+              "value": 24472319005
+            },
+            {
+              "label": "they/them/theirs",
+              "value": 24472320005
+            },
+            {
+              "label": "other (self-describe)",
+              "value": 24472321005
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "If you self-describe, please feel free to specify here:",
+      "required": false,
+      "fields": [
+        {
+          "name": "question_9119088005",
+          "type": "input_text",
+          "values": []
+        }
+      ]
+    },
+    {
+      "description": null,
+      "label": "How did you hear about this job?",
+      "required": true,
+      "fields": [
+        {
+          "name": "question_9119089005",
+          "type": "multi_value_single_select",
+          "values": [
+            {
+              "label": "Jumio Employee",
+              "value": 24472322005
+            },
+            {
+              "label": "Jumio Website",
+              "value": 24472323005
+            },
+            {
+              "label": "Careers Event",
+              "value": 24472324005
+            },
+            {
+              "label": "Google Search",
+              "value": 24472325005
+            },
+            {
+              "label": "Job Board",
+              "value": 24472326005
+            },
+            {
+              "label": "LinkedIn",
+              "value": 24472327005
+            },
+            {
+              "label": "Recruitment Agency",
+              "value": 24472328005
+            },
+            {
+              "label": "Social Media",
+              "value": 24472329005
+            },
+            {
+              "label": "Webinar",
+              "value": 24472330005
+            },
+            {
+              "label": "Other",
+              "value": 24472331005
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "location_questions": [],
+  "compliance": [
+    {
+      "type": "eeoc",
+      "questions": [
+        {
+          "required": false,
+          "label": "VeteranStatus",
+          "fields": [
+            {
+              "name": "veteran_status",
+              "type": "multi_value_single_select",
+              "values": [
+                {
+                  "label": "I don't wish to answer",
+                  "value": "3"
+                },
+                {
+                  "label": "I identify as one or more of the classifications of a protected veteran",
+                  "value": "2"
+                },
+                {
+                  "label": "I am not a protected veteran",
+                  "value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "&lt;p&gt;\n  If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection.\n  As a government contractor subject to the Vietnam Era Veterans&#39; Readjustment Assistance Act (VEVRAA), we request this information in order to measure\n  the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories\n  is as follows:\n&lt;/p&gt;\n&lt;p&gt;A &quot;disabled veteran&quot; is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability.&lt;/p&gt;\n&lt;p&gt;A &quot;recently separated veteran&quot; means any veteran during the three-year period beginning on the date of such veteran&#39;s discharge or release from active duty in the U.S. military, ground, naval, or air service.&lt;/p&gt;\n&lt;p&gt;An &quot;active duty wartime or campaign badge veteran&quot; means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.&lt;/p&gt;\n&lt;p&gt;An &quot;Armed forces service medal veteran&quot; means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.&lt;/p&gt;\n"
+    },
+    {
+      "type": "eeoc",
+      "questions": [
+        {
+          "required": false,
+          "label": "Race",
+          "fields": [
+            {
+              "name": "race",
+              "type": "multi_value_single_select",
+              "values": [
+                {
+                  "label": "Decline To Self Identify",
+                  "value": "8"
+                },
+                {
+                  "label": "Two or More Races",
+                  "value": "7"
+                },
+                {
+                  "label": "Native Hawaiian or Other Pacific Islander",
+                  "value": "6"
+                },
+                {
+                  "label": "White",
+                  "value": "5"
+                },
+                {
+                  "label": "Hispanic or Latino",
+                  "value": "4"
+                },
+                {
+                  "label": "Black or African American",
+                  "value": "3"
+                },
+                {
+                  "label": "Asian",
+                  "value": "2"
+                },
+                {
+                  "label": "American Indian or Alaskan Native",
+                  "value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "required": false,
+          "label": "Gender",
+          "fields": [
+            {
+              "name": "gender",
+              "type": "multi_value_single_select",
+              "values": [
+                {
+                  "label": "Decline To Self Identify",
+                  "value": "3"
+                },
+                {
+                  "label": "Female",
+                  "value": "2"
+                },
+                {
+                  "label": "Male",
+                  "value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "&lt;h3&gt;&lt;strong&gt;Voluntary Self-Identification&lt;/strong&gt;&lt;/h3&gt;&lt;br/&gt;&lt;p&gt;For government reporting purposes, we ask candidates to respond to the below self-identification survey.\nCompletion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring\nprocess or thereafter. Any information that you do provide will be recorded and maintained in a\nconfidential file.&lt;/p&gt;\n\n&lt;p&gt;As set forth in Jumio’s Equal Employment Opportunity policy,\nwe do not discriminate on the basis of any protected group status under any applicable law.&lt;/p&gt;\n"
+    }
+  ],
+  "demographic_questions": {
+    "header": "Demographic Questions",
+    "description": "<div class=\"jv-form-field ng-pristine ng-untouched ng-valid ng-scope ng-isolate-scope ng-not-empty\">\n<div class=\"jv-form-field-heading JVA_HEADING\">\n<div class=\"jv-form-field-control\">\n<p class=\"ng-binding ng-scope\" style=\"text-align: left;\"><span style=\"font-size: 14px;\">At Jumio, we value belonging and believe in fostering an environment where a diversity of perspectives can thrive. Your responses will help us to reduce bias and increase diversity and inclusion across the company.</span></p>\n</div>\n</div>\n</div>\n<div class=\"jv-form-field-p JVA_TEXT\">\n<div class=\"jv-form-field-control\">\n<p class=\"ng-scope\"><span class=\"ng-binding ng-scope\">We only ask for this data on an opt-in basis and it will be used (in aggregate only) to help us identify areas of improvement in our process.</span></p>\n</div>\n</div>\n<div class=\"jv-form-field-p JVA_TEXT\">\n<div class=\"jv-form-field-control\">\n<p class=\"ng-scope\"><span class=\"ng-binding ng-scope\">Notwithstanding, if you do not feel comfortable providing the information required therein, you can decline at any time from answering the survey, given that the completion of the form is entirely voluntary.</span></p>\n</div>\n</div>\n<div class=\"jv-form-field ng-pristine ng-untouched ng-valid ng-scope ng-isolate-scope ng-not-empty\">\n<div class=\"jv-form-field-p JVA_TEXT\">\n<div class=\"jv-form-field-control\">\n<p class=\"ng-scope\" style=\"text-align: left;\"><span class=\"ng-binding ng-scope\">Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file.</span></p>\n</div>\n</div>\n</div>",
+    "questions": [
+      {
+        "id": 4000142005,
+        "label": "I identify my gender as",
+        "required": true,
+        "type": "multi_value_single_select",
+        "answer_options": [
+          {
+            "id": 4000782005,
+            "label": "Female",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4000783005,
+            "label": "Male",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4000784005,
+            "label": "Non-binary / third gender (inclusive of bigender, agender, androgynous, gender fluid, gender non-conforming)",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4000785005,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      },
+      {
+        "id": 4000143005,
+        "label": "I identify my ethnicity as (mark all that apply)",
+        "required": true,
+        "type": "multi_value_multi_select",
+        "answer_options": [
+          {
+            "id": 4000786005,
+            "label": "Alaskan Native / American Indian / Native Hawaiian",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4000787005,
+            "label": "Black or African descent",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4000788005,
+            "label": "Asian",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4000789005,
+            "label": "Latinx",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4000790005,
+            "label": "Middle Eastern",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4000791005,
+            "label": "White",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4000792005,
+            "label": "Two or More Races",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4000793005,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      },
+      {
+        "id": 4000144005,
+        "label": "I have a physical disability",
+        "required": true,
+        "type": "multi_value_single_select",
+        "answer_options": [
+          {
+            "id": 4000794005,
+            "label": "Yes",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4000795005,
+            "label": "No",
+            "free_form": false,
+            "decline_to_answer": false
+          },
+          {
+            "id": 4000796005,
+            "label": "I don't wish to answer",
+            "free_form": false,
+            "decline_to_answer": true
+          }
+        ]
+      }
+    ]
+  },
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": true,
+      "requires_processing_consent": true,
+      "requires_retention_consent": true,
+      "retention_period": 1095,
+      "demographic_data_consent_applies": true
+    }
+  ]
+}

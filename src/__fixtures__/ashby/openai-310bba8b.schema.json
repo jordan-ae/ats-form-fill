@@ -1,0 +1,304 @@
+{
+  "source": "ApiJobPosting response observed in-page",
+  "applicationForm": {
+    "__typename": "FormRender",
+    "id": "28b77392-2637-4be2-84c4-bee9143a2dec",
+    "errorMessages": [],
+    "formErrors": [],
+    "sourceFormDefinitionId": "{\"kind\":\"CompositeFormDefinitionId-JobPostingApplicationFormV2\",\"formDefinitionId\":\"de8ca204-d261-4ea5-a847-3ec272a52fba\",\"jobPostingId\":\"310bba8b-1fb6-4e38-bd0b-9d83b712d240\",\"jobBoardSuperType\":\"External\"}",
+    "formControls": [
+      {
+        "__typename": "FormControl",
+        "identifier": "7a1a9b4b-7cbf-4c05-8ef1-7f749a8c7d57",
+        "title": "Submit"
+      }
+    ],
+    "sections": [
+      {
+        "__typename": "FormSectionRender",
+        "title": null,
+        "descriptionHtml": null,
+        "isHidden": null,
+        "fieldEntries": [
+          {
+            "__typename": "FormFieldEntry",
+            "id": "28b77392-2637-4be2-84c4-bee9143a2dec__systemfield_name",
+            "field": {
+              "id": "c5c9f56f-12df-4904-8f05-157a00fca736",
+              "path": "_systemfield_name",
+              "humanReadablePath": "Name",
+              "title": "Legal Name",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "String",
+              "__autoSerializationID": "StringField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": "<p>Please enter your legal name exactly as shown on your government-issued ID. This helps keep records accurate for later hiring steps.</p>",
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "28b77392-2637-4be2-84c4-bee9143a2dec_a4a98901-0131-4a2e-812f-225d7fe4900d",
+            "field": {
+              "id": "fe455ee4-da08-46b3-921a-378ada489b3b",
+              "path": "a4a98901-0131-4a2e-812f-225d7fe4900d",
+              "humanReadablePath": "",
+              "title": "Preferred Name (if applicable)",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "String",
+              "__autoSerializationID": "StringField"
+            },
+            "fieldValue": null,
+            "isRequired": false,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "28b77392-2637-4be2-84c4-bee9143a2dec__systemfield_email",
+            "field": {
+              "id": "9a97fd91-66a8-45f0-ac9a-d917c9b61ca8",
+              "path": "_systemfield_email",
+              "humanReadablePath": "Email",
+              "title": "Email",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "Email",
+              "__autoSerializationID": "EmailField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "28b77392-2637-4be2-84c4-bee9143a2dec__systemfield_resume",
+            "field": {
+              "id": "0b3ac41c-0349-463c-a3d4-37028fb7a17c",
+              "path": "_systemfield_resume",
+              "humanReadablePath": "Resume",
+              "title": "Resume",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "File",
+              "__autoSerializationID": "FileField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "28b77392-2637-4be2-84c4-bee9143a2dec_82a6a8fc-2f09-468f-aa5c-80c0c3e958d5",
+            "field": {
+              "id": "82a6a8fc-2f09-468f-aa5c-80c0c3e958d5",
+              "path": "82a6a8fc-2f09-468f-aa5c-80c0c3e958d5",
+              "humanReadablePath": "",
+              "title": "Phone Number",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "Phone",
+              "__autoSerializationID": "PhoneField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "28b77392-2637-4be2-84c4-bee9143a2dec__systemfield_location",
+            "field": {
+              "id": "4e942bae-b5b6-484d-8dd9-0b405db253ef",
+              "path": "_systemfield_location",
+              "humanReadablePath": "Location",
+              "title": "Where are you currently located?",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "Location",
+              "locationTypes": [
+                "Country",
+                "City"
+              ],
+              "__autoSerializationID": "LocationField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "28b77392-2637-4be2-84c4-bee9143a2dec_c1562fbe-9c81-4aab-ab3a-82f956fa515c",
+            "field": {
+              "id": "c1562fbe-9c81-4aab-ab3a-82f956fa515c",
+              "path": "c1562fbe-9c81-4aab-ab3a-82f956fa515c",
+              "humanReadablePath": "",
+              "title": "When can you start a new role?",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "Date",
+              "__autoSerializationID": "DateField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "28b77392-2637-4be2-84c4-bee9143a2dec_7be04dc4-d628-45e9-ac86-b20cf904fd31",
+            "field": {
+              "id": "155df30e-45d8-4ee4-ba39-0eb5aba7daf3",
+              "path": "7be04dc4-d628-45e9-ac86-b20cf904fd31",
+              "humanReadablePath": "",
+              "title": "Are you authorized to work in the country where the job is located?",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "Boolean",
+              "__autoSerializationID": "BooleanField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "28b77392-2637-4be2-84c4-bee9143a2dec_b150cba3-8c6e-460c-b9d6-337e85e15a6c",
+            "field": {
+              "id": "b150cba3-8c6e-460c-b9d6-337e85e15a6c",
+              "path": "b150cba3-8c6e-460c-b9d6-337e85e15a6c",
+              "humanReadablePath": "",
+              "title": "Will you now or in the future require sponsorship for employment visa status in this country?",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "Boolean",
+              "__autoSerializationID": "BooleanField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": "<p>We may provide immigration and sponsorship support to new employees based on their unique circumstances.</p>",
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "28b77392-2637-4be2-84c4-bee9143a2dec_b6e425c8-c9bb-4636-b5f8-da2f0059d480",
+            "field": {
+              "id": "b6e425c8-c9bb-4636-b5f8-da2f0059d480",
+              "path": "b6e425c8-c9bb-4636-b5f8-da2f0059d480",
+              "humanReadablePath": "",
+              "title": "Are you able to work from our London office three days per week?",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "Boolean",
+              "__autoSerializationID": "BooleanField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "28b77392-2637-4be2-84c4-bee9143a2dec_067a9b81-8179-4e50-8386-e9e9e91682f4",
+            "field": {
+              "id": "067a9b81-8179-4e50-8386-e9e9e91682f4",
+              "path": "067a9b81-8179-4e50-8386-e9e9e91682f4",
+              "humanReadablePath": "",
+              "title": "Additional Information",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "LongText",
+              "__autoSerializationID": "LongTextField"
+            },
+            "fieldValue": null,
+            "isRequired": false,
+            "descriptionHtml": "<p>Please share anything else you want us to know, such as your motivation to apply or additional context for your application.</p>",
+            "isHidden": null
+          }
+        ]
+      },
+      {
+        "__typename": "FormSectionRender",
+        "title": null,
+        "descriptionHtml": null,
+        "isHidden": null,
+        "fieldEntries": [
+          {
+            "__typename": "FormFieldEntry",
+            "id": "28b77392-2637-4be2-84c4-bee9143a2dec_7fe82de7-a1d7-4d8a-95a5-e5cc9adc84ea",
+            "field": {
+              "id": "c99abc11-6518-49e9-b432-94e2b6df969e",
+              "path": "7fe82de7-a1d7-4d8a-95a5-e5cc9adc84ea",
+              "humanReadablePath": "",
+              "title": "I hereby certify that I have not knowingly withheld any information that might adversely affect my chances for employment and that the answers given by me are true and correct to the best of my knowledge. I further certify that I, the undersigned applicant, have personally completed this application. I understand that, to the extent permitted by applicable law, any omission or misstatement of material fact on this application or on any document used to secure employment shall be grounds for rejection of this application or for immediate discharge if I am employed, regardless of the time elapsed before discovery. ",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "MultiValueSelect",
+              "selectableValues": [
+                {
+                  "label": "I confirm I have read the above.",
+                  "value": "I confirm I have read the above.",
+                  "isArchived": false
+                }
+              ],
+              "__autoSerializationID": "MultiValueSelectField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": "<p><strong>OpenAI is not seeking, nor should you disclose, any information that may be subject to confidentiality obligations to third parties, including but not limited to, your current employer.</strong></p>",
+            "isHidden": null
+          }
+        ]
+      }
+    ]
+  },
+  "surveyForms": [],
+  "recaptchaAction": "job_apply",
+  "workplaceType": "Hybrid",
+  "locationName": "London, UK",
+  "secondaryLocationNames": [],
+  "shouldAskForTextingConsent": false
+}

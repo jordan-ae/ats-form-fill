@@ -1,0 +1,180 @@
+{
+  "source": "ApiJobPosting response observed in-page",
+  "applicationForm": {
+    "__typename": "FormRender",
+    "id": "aef49aed-8a6b-45ea-96eb-c953f6d4b2db",
+    "errorMessages": [],
+    "formErrors": [],
+    "sourceFormDefinitionId": "24abd4e6-b939-4e3f-9597-373361ce1ffb",
+    "formControls": [
+      {
+        "__typename": "FormControl",
+        "identifier": "d57c0ec5-ed7e-486b-9b46-113706b65c8a",
+        "title": "Submit"
+      }
+    ],
+    "sections": [
+      {
+        "__typename": "FormSectionRender",
+        "title": null,
+        "descriptionHtml": null,
+        "isHidden": null,
+        "fieldEntries": [
+          {
+            "__typename": "FormFieldEntry",
+            "id": "aef49aed-8a6b-45ea-96eb-c953f6d4b2db__systemfield_name",
+            "field": {
+              "id": "5f53738b-8b6e-4b55-92eb-5370896f161d",
+              "path": "_systemfield_name",
+              "humanReadablePath": "Name",
+              "title": " Full Legal Name",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "String",
+              "__autoSerializationID": "StringField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": "<p>(First Name, Last Name)</p>",
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "aef49aed-8a6b-45ea-96eb-c953f6d4b2db_cc28e942-1e45-4c4b-8857-5fed297835c4",
+            "field": {
+              "id": "cc28e942-1e45-4c4b-8857-5fed297835c4",
+              "path": "cc28e942-1e45-4c4b-8857-5fed297835c4",
+              "humanReadablePath": "",
+              "title": "Preferred Name ",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "String",
+              "__autoSerializationID": "StringField"
+            },
+            "fieldValue": null,
+            "isRequired": false,
+            "descriptionHtml": "<p>(First Name, Last Name) </p>",
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "aef49aed-8a6b-45ea-96eb-c953f6d4b2db__systemfield_email",
+            "field": {
+              "id": "45409d6e-4699-4ca4-96cf-23635fdbb666",
+              "path": "_systemfield_email",
+              "humanReadablePath": "Email",
+              "title": "Email",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "Email",
+              "__autoSerializationID": "EmailField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "aef49aed-8a6b-45ea-96eb-c953f6d4b2db__systemfield_resume",
+            "field": {
+              "id": "dc1db631-ca74-45ec-8205-fc07d0b81e34",
+              "path": "_systemfield_resume",
+              "humanReadablePath": "Resume",
+              "title": "Resume",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "File",
+              "__autoSerializationID": "FileField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "aef49aed-8a6b-45ea-96eb-c953f6d4b2db_e597abb8-327c-4722-a063-d2269da8a593",
+            "field": {
+              "id": "e597abb8-327c-4722-a063-d2269da8a593",
+              "path": "e597abb8-327c-4722-a063-d2269da8a593",
+              "humanReadablePath": "",
+              "title": "Are you legally entitled to work in Canada?",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "Boolean",
+              "__autoSerializationID": "BooleanField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "aef49aed-8a6b-45ea-96eb-c953f6d4b2db_caf14ff1-415a-4852-8326-63fa2567fcdf",
+            "field": {
+              "id": "caf14ff1-415a-4852-8326-63fa2567fcdf",
+              "path": "caf14ff1-415a-4852-8326-63fa2567fcdf",
+              "humanReadablePath": "",
+              "title": "Postal Code where you reside.",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "String",
+              "__autoSerializationID": "StringField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          },
+          {
+            "__typename": "FormFieldEntry",
+            "id": "aef49aed-8a6b-45ea-96eb-c953f6d4b2db_b78f9a2a-7fef-4d72-9f9f-a48e00d7d881",
+            "field": {
+              "id": "9a5c3067-603d-4219-9062-2d849be9c8a0",
+              "path": "b78f9a2a-7fef-4d72-9f9f-a48e00d7d881",
+              "humanReadablePath": "",
+              "title": "Are you available to work weekends as part of your regular schedule?",
+              "isNullable": false,
+              "isPrivate": false,
+              "isDeactivated": false,
+              "isMany": false,
+              "metadata": {},
+              "type": "String",
+              "__autoSerializationID": "StringField"
+            },
+            "fieldValue": null,
+            "isRequired": true,
+            "descriptionHtml": null,
+            "isHidden": null
+          }
+        ]
+      }
+    ]
+  },
+  "surveyForms": [],
+  "recaptchaAction": "job_apply",
+  "workplaceType": "Remote",
+  "locationName": "Remote, Canada",
+  "secondaryLocationNames": [],
+  "shouldAskForTextingConsent": false
+}
